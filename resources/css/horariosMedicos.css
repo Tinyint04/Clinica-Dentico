@@ -1,0 +1,34 @@
+.row.align-items-center {
+    align-items: flex-start;
+}
+
+.row.align-items-center .col-md-1:first-child {
+    display: flex;
+    align-items: left; 
+}
+
+.row.align-items-center .col-md-1:first-child input[type="checkbox"] {
+    /* margin-right: 5px; */
+    align-items: left;
+}
+
+.custom-time-input {
+    max-width: 50px; /* Ajusta el valor según tus necesidades */
+}
+.btn-day {
+    width: 100%;
+    text-align: left;
+    align-items: left;
+}
+.align-middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+.p-0 {
+    padding: 0;
+}
+.btn-day:hover {
+    background-color: #2a9d77; /* Color de fondo al pasar el ratón */
+    color: #ffffff; /* Color del texto al pasar el ratón */
+    border-color: #2a9d77; /* Color del borde al pasar el ratón (opcional) */
+}
